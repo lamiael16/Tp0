@@ -1,0 +1,9 @@
+
+    def estNombreDansIntervalle(minval, maxval,nombre):
+    if nombre>=minval && nombre<=maxval :
+    return true
+    else:
+    return false
+
+print(estNombreDansIntervalle(10, 30,20))
+
