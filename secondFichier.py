@@ -1,3 +1,4 @@
+from fonctions import *
 print("mon second fichier")
 #*print("prénom : ")
 #x = input("entrer votre prénom : ")
@@ -54,3 +55,4 @@ semaines = reste / 604800.02
 print("le nombre de semaines : %d" % int(semaines))
 restesemaine = reste - (604800.02 * int(semaines))
 print("le reste est : %d" %restesemaine)
+print(f"resultat de la fonction : {estNombreDansIntervalle(10, 30,20)}")
